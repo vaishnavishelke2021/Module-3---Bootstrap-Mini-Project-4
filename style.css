@@ -1,0 +1,150 @@
+/* 
+#BFACE2   
+#E9F8F9
+*/
+/* 
+font-family: 'Braah One', sans-serif;     heading
+font-family: 'Open Sans', sans-serif;     other       */
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif; 
+}
+
+body{
+    background-color: #BFACE2;
+}
+
+
+
+
+#tdl{
+    font-family: 'Braah One', sans-serif;
+    padding: 1rem;
+    padding-top: 3.5rem;
+    font-size: 2.5em;
+    color: white;
+}
+
+
+
+
+#box{
+    margin-top: 2.3rem;
+    border: 4px solid white;
+    border-radius: 8px;
+}
+
+
+/* sec 1 */
+.sec-1{
+    background-color: white;
+}
+
+.card{
+    margin-top: 2rem;
+    border: none;
+}
+
+.card img{
+    border-radius: 50px;
+    height: 75px;
+    width: 75px;
+    object-fit: cover;
+    border: 3px solid #BFACE2;
+    margin: auto;
+}
+
+.card-text{
+    margin: auto;
+    margin-top: 0.5rem;
+    font-weight: 700;
+    color: #BFACE2;
+}
+
+.card i{
+    font-size: 2.4rem;
+    color: #BFACE2;
+    margin-top: 3rem;
+}
+
+
+
+
+/* colors  */
+.card .colors{
+    margin: auto;
+    margin-top: 0.5rem;
+}
+
+.colors i{
+    font-size: 1rem;
+    margin: 0.3rem;
+}
+
+
+
+/* calendar  */
+.calendar{
+    margin-top: 4rem;
+    background-color: #BFACE2;
+    padding: 1.5rem 1rem;
+    border-radius: 10px;
+}
+
+.calendar i{
+    font-size: 2rem;
+    margin-bottom: 2rem;
+    /* margin: auto; */
+    color: white;
+    margin-left: 7.5rem;
+    
+}
+
+
+.calendar p{
+    color: white;
+    margin-bottom: 0.4rem;
+    font-family: 'Braah One', sans-serif;;
+}
+
+
+
+/* sec 2 */
+
+.sec-2 h2{
+    margin-top: 3rem;
+    font-weight: 700;
+    color: rgb(72, 55, 73);
+}
+
+.sec-2 p{
+    margin-top: 1rem;
+    padding-top: 0rem;
+    color: rgba(72, 55, 73, 0.753);
+}
+
+.input{
+    margin-top: 4rem;
+    max-width: 800px;
+}
+
+.input .input-text{
+    font-size: 0.7rem;
+}
+
+.input .form-check-input{
+    border: 0.1px solid rgb(72, 55, 73);
+}
+
+.input-group{
+    margin-top: 1rem;
+}
+
+.input .i5 .form-control{
+    font-size: 0.8rem;
+    color: #BFACE2;
+}

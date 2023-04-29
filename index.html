@@ -1,0 +1,104 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>To Do List</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Braah+One&family=Open+Sans:wght@300;400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+
+   <h1 class="text-center" id="tdl">To Do List </h1>
+
+
+   <!-- main box  -->
+   <div class="container" id="box">
+     <div class="row">
+      <!-- sec 1  -->
+      <div class="col-sm-11 col-md-3 col-lg-3 sec-1">
+        <div class="card mx-auto" style="width: 9rem;">
+          <img src="https://img.freepik.com/free-photo/pretty-smiling-joyfully-female-with-fair-hair-dressed-casually-looking-with-satisfaction_176420-15187.jpg?size=626&ext=jpg&ga=GA1.1.909159316.1670136316&semt=robertav1_2_sidr" class="card-img-top" alt="...">
+          <p class="card-text">Jessica Johnson</p>
+          <a class="mx-auto" href="#" data-bs-toggle="tooltip" data-bs-placement="top" title="Create new list" ><i class='fa fa-plus-circle'></i></a>
+
+          <div class="colors">
+            <i class='fa fa-circle' style="color: #bface2;"></i>
+            <i class='fa fa-circle' style="color: #7cb1ce;"></i>
+            <i class='fa fa-circle' style="color: #a6ca9f;"></i>
+            <i class='fa fa-circle' style="color: #c573a1;"></i>
+            <i class='fa fa-circle' style="color: #d1c390;"></i>
+          </div>
+  
+        </div>
+
+        <div class="calendar">
+          <i class='fa fa-calendar'></i>
+          <p class="text-center" style="color: rgba(72, 55, 73, 0.809);">Today</p>
+          <p class="text-center">Yesterday</p>
+          <p class="text-center">Tomorrow</p>
+       </div>
+      </div>
+
+
+      <!-- sec 2  -->
+      <div class="col-sm-11 col-md-8 col-lg-8 sec-2 mx-auto">
+        <h2 class="text-center">Designing Work</h2>
+        <p class="text-center">Todays work is related to project 1 of 'Designing Course'</p>
+
+
+      <div class="input mx-auto">
+        <div class="input-group">
+          <input type="text" placeholder="Research" class="form-control" aria-label="Dollar amount (with dot and two decimal places)" checked>
+          <span style="color: rgb(72, 55, 73);" class="input-group-text input-text">08:00 am</span>
+          <span class="input-group-text"><input class="form-check-input" type="checkbox" value="" id="flexCheckDefault"></i></span>
+          <span class="input-group-text">
+            <i class='fa fa-trash' style="color: rgb(72, 55, 73);"></i></span>
+        </div>
+
+        <div class="input-group">
+          <input type="text" placeholder="User Interview" class="form-control" aria-label="Dollar amount (with dot and two decimal places)">
+          <span style="color: rgb(72, 55, 73);" class="input-group-text input-text">11:00 am</span>
+          <span class="input-group-text"><input class="form-check-input" type="checkbox" value="" id="flexCheckDefault"></i></span>
+          <span class="input-group-text">
+            <i class='fa fa-trash' style="color: rgb(72, 55, 73);"></i></span>
+        </div>
+
+        <div class="input-group">
+          <input type="text" placeholder="Paper Wireframing" class="form-control" aria-label="Dollar amount (with dot and two decimal places)">
+          <span style="color: rgb(72, 55, 73);" class="input-group-text input-text">05:00 pm</span>
+          <span class="input-group-text"><input class="form-check-input" type="checkbox" value="" id="flexCheckDefault"></i></span>
+          <span class="input-group-text">
+            <i class='fa fa-trash' style="color: rgb(72, 55, 73);"></i></span>
+        </div>
+
+        <div class="input-group">
+          <input type="text" placeholder="Digital Wireframing" class="form-control" aria-label="Dollar amount (with dot and two decimal places)">
+          <span style="color: rgb(72, 55, 73);" class="input-group-text input-text">08:00 pm</span>
+          <span class="input-group-text"><input class="form-check-input" type="checkbox" value="" id="flexCheckDefault"></i></span>
+          <span class="input-group-text">
+            <i class='fa fa-trash' style="color: rgb(72, 55, 73);"></i></span>
+        </div>
+
+        <div class="input-group i5">
+          <input type="text" placeholder="Add new" class="form-control" aria-label="Dollar amount (with dot and two decimal places)">
+          <span style="color: rgb(72, 55, 73);" class="input-group-text input-text">00:00 </span>
+          <span class="input-group-text"><input class="form-check-input" type="checkbox" value="" id="flexCheckDefault"></i></span>
+          <span class="input-group-text">
+            <i class='fa fa-trash' style="color: rgb(72, 55, 73);"></i></span>
+        </div>
+      </div>  
+      </div>
+     </div>
+   </div>
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous"></script>
+  </body>
+</html>
